@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 @interface Utils : NSObject
++(CGFloat)getDeviceSize:(NSString *)type;
 
 @end

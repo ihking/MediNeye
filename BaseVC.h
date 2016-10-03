@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "UIColor+Utils.h"
+#import "UIFont+Utils.h"
+#import "NSString+Utils.h"
 
 @interface BaseVC : UIViewController
 

@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwipeBaseVC.h"
 
-@interface SearchPillVC : UIViewController
+@interface SearchPillVC : SwipeBaseVC
 
 @end

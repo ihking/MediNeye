@@ -7,6 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		336741231D9A8EE400445370 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741211D9A8EE400445370 /* TestViewController.m */; };
+		336741241D9A8EE400445370 /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336741221D9A8EE400445370 /* TestViewController.xib */; };
+		336741261D9AD82B00445370 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336741251D9AD82B00445370 /* CoreMedia.framework */; };
+		336741281D9AD83100445370 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336741271D9AD83100445370 /* CoreVideo.framework */; };
+		3367412A1D9AD83600445370 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336741291D9AD83600445370 /* QuartzCore.framework */; };
+		3367412C1D9AD84000445370 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3367412B1D9AD84000445370 /* libiconv.tbd */; };
+		3367414B1D9B719600445370 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 336741451D9B719600445370 /* libzbar.a */; };
+		3367414C1D9B719600445370 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = 336741471D9B719600445370 /* zbar-back.png */; };
+		3367414D1D9B719600445370 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = 336741481D9B719600445370 /* zbar-help.html */; };
+		3367414E1D9B719600445370 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 336741491D9B719600445370 /* zbar-helpicons.png */; };
+		3367414F1D9B719600445370 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 3367414A1D9B719600445370 /* zbar-samples.png */; };
+		336741511D9C1B9400445370 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 336741501D9C1B9400445370 /* CoreGraphics.framework */; };
+		336741541D9DFDC700445370 /* NSString+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741531D9DFDC700445370 /* NSString+Utils.m */; };
+		336741591D9DFE1200445370 /* UIColor+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741561D9DFE1200445370 /* UIColor+Utils.m */; };
+		3367415A1D9DFE1200445370 /* UIFont+Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741581D9DFE1200445370 /* UIFont+Utils.m */; };
+		3367415E1D9E041200445370 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 3367415D1D9E041200445370 /* Utils.m */; };
+		336741611D9E05E800445370 /* BaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741601D9E05E800445370 /* BaseVC.m */; };
+		336741641D9E427500445370 /* BarCodeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741631D9E427500445370 /* BarCodeVC.m */; };
+		336741671D9E429400445370 /* NearDrugStoreVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741661D9E429400445370 /* NearDrugStoreVC.m */; };
+		3367416F1D9E62FE00445370 /* SearchPillVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3367416E1D9E62FE00445370 /* SearchPillVC.m */; };
+		336741721D9E656C00445370 /* DrugStoreInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741711D9E656C00445370 /* DrugStoreInfoView.m */; };
+		336741741D9E657700445370 /* DrugStoreInfoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 336741731D9E657700445370 /* DrugStoreInfoView.xib */; };
+		336741791D9E65AE00445370 /* PillAlaramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741781D9E65AE00445370 /* PillAlaramVC.m */; };
+		3367417C1D9E65DB00445370 /* SelectAlaramVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3367417B1D9E65DB00445370 /* SelectAlaramVC.m */; };
+		336741801D9E661800445370 /* AddNfcVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3367417F1D9E661800445370 /* AddNfcVC.m */; };
+		336741841D9E667A00445370 /* WelFareInstitueVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741831D9E667A00445370 /* WelFareInstitueVC.m */; };
+		336741881D9E669200445370 /* SettingsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 336741871D9E669200445370 /* SettingsVC.m */; };
+		3367418B1D9E8AEA00445370 /* SwipeBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3367418A1D9E8AEA00445370 /* SwipeBaseVC.m */; };
+		3388E0B21D94D2060034E90F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3388E0AF1D94D2060034E90F /* AudioToolbox.framework */; };
+		3388E0B31D94D2060034E90F /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3388E0B01D94D2060034E90F /* CoreAudio.framework */; };
+		3388E0B41D94D2060034E90F /* CoreAudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3388E0B11D94D2060034E90F /* CoreAudioKit.framework */; };
+		3388E0B61D96AF830034E90F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3388E0B51D96AF830034E90F /* AVFoundation.framework */; };
+		3388E0BA1D98B2280034E90F /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3388E0B91D98B2280034E90F /* SwipeView.m */; };
+		3388E0BD1D98C1CD0034E90F /* MainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3388E0BC1D98C1CD0034E90F /* MainVC.m */; };
+		3388E0C01D98FF500034E90F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3388E0BF1D98FF500034E90F /* CoreLocation.framework */; };
 		33A625E01D910E2B001D40B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A625DF1D910E2B001D40B1 /* main.m */; };
 		33A625E31D910E2B001D40B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A625E21D910E2B001D40B1 /* AppDelegate.m */; };
 		33A625E61D910E2B001D40B1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A625E51D910E2B001D40B1 /* ViewController.m */; };
@@ -16,6 +51,7 @@
 		33A625F11D910E2B001D40B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33A625EF1D910E2B001D40B1 /* LaunchScreen.storyboard */; };
 		33A625FC1D910E2B001D40B1 /* MediNeyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A625FB1D910E2B001D40B1 /* MediNeyeTests.m */; };
 		33A626071D910E2B001D40B1 /* MediNeyeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33A626061D910E2B001D40B1 /* MediNeyeUITests.m */; };
+		E5B2B34F9D6F8C6BC551FEB9 /* libPods-MediNeye.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 78059C3710D0063CE9CB9966 /* libPods-MediNeye.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +72,80 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		335FB3BA98E79878A88F8770 /* Pods-MediNeye.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediNeye.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MediNeye/Pods-MediNeye.debug.xcconfig"; sourceTree = "<group>"; };
+		336741201D9A8EE400445370 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		336741211D9A8EE400445370 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		336741221D9A8EE400445370 /* TestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		336741251D9AD82B00445370 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		336741271D9AD83100445370 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		336741291D9AD83600445370 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		3367412B1D9AD84000445370 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		336741311D9B719600445370 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		336741321D9B719600445370 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		336741331D9B719600445370 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		336741341D9B719600445370 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		336741351D9B719600445370 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		336741361D9B719600445370 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		336741371D9B719600445370 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		336741381D9B719600445370 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		336741391D9B719600445370 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		3367413A1D9B719600445370 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		3367413B1D9B719600445370 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		3367413C1D9B719600445370 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		3367413D1D9B719600445370 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		3367413E1D9B719600445370 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		3367413F1D9B719600445370 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		336741401D9B719600445370 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		336741411D9B719600445370 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		336741421D9B719600445370 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		336741431D9B719600445370 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		336741441D9B719600445370 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		336741451D9B719600445370 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		336741471D9B719600445370 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		336741481D9B719600445370 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		336741491D9B719600445370 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		3367414A1D9B719600445370 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		336741501D9C1B9400445370 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		336741521D9DFDC700445370 /* NSString+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Utils.h"; sourceTree = "<group>"; };
+		336741531D9DFDC700445370 /* NSString+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Utils.m"; sourceTree = "<group>"; };
+		336741551D9DFE1200445370 /* UIColor+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utils.h"; sourceTree = "<group>"; };
+		336741561D9DFE1200445370 /* UIColor+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utils.m"; sourceTree = "<group>"; };
+		336741571D9DFE1200445370 /* UIFont+Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+Utils.h"; sourceTree = "<group>"; };
+		336741581D9DFE1200445370 /* UIFont+Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Utils.m"; sourceTree = "<group>"; };
+		3367415C1D9E041200445370 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		3367415D1D9E041200445370 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		3367415F1D9E05E800445370 /* BaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseVC.h; sourceTree = "<group>"; };
+		336741601D9E05E800445370 /* BaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseVC.m; sourceTree = "<group>"; };
+		336741621D9E427500445370 /* BarCodeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarCodeVC.h; sourceTree = "<group>"; };
+		336741631D9E427500445370 /* BarCodeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarCodeVC.m; sourceTree = "<group>"; };
+		336741651D9E429400445370 /* NearDrugStoreVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NearDrugStoreVC.h; sourceTree = "<group>"; };
+		336741661D9E429400445370 /* NearDrugStoreVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NearDrugStoreVC.m; sourceTree = "<group>"; };
+		3367416D1D9E62FE00445370 /* SearchPillVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchPillVC.h; sourceTree = "<group>"; };
+		3367416E1D9E62FE00445370 /* SearchPillVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchPillVC.m; sourceTree = "<group>"; };
+		336741701D9E656C00445370 /* DrugStoreInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrugStoreInfoView.h; sourceTree = "<group>"; };
+		336741711D9E656C00445370 /* DrugStoreInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrugStoreInfoView.m; sourceTree = "<group>"; };
+		336741731D9E657700445370 /* DrugStoreInfoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DrugStoreInfoView.xib; sourceTree = "<group>"; };
+		336741771D9E65AE00445370 /* PillAlaramVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PillAlaramVC.h; sourceTree = "<group>"; };
+		336741781D9E65AE00445370 /* PillAlaramVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PillAlaramVC.m; sourceTree = "<group>"; };
+		3367417A1D9E65DB00445370 /* SelectAlaramVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAlaramVC.h; sourceTree = "<group>"; };
+		3367417B1D9E65DB00445370 /* SelectAlaramVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAlaramVC.m; sourceTree = "<group>"; };
+		3367417E1D9E661800445370 /* AddNfcVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddNfcVC.h; sourceTree = "<group>"; };
+		3367417F1D9E661800445370 /* AddNfcVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddNfcVC.m; sourceTree = "<group>"; };
+		336741821D9E667A00445370 /* WelFareInstitueVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelFareInstitueVC.h; sourceTree = "<group>"; };
+		336741831D9E667A00445370 /* WelFareInstitueVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelFareInstitueVC.m; sourceTree = "<group>"; };
+		336741861D9E669200445370 /* SettingsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsVC.h; sourceTree = "<group>"; };
+		336741871D9E669200445370 /* SettingsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsVC.m; sourceTree = "<group>"; };
+		336741891D9E8AEA00445370 /* SwipeBaseVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeBaseVC.h; sourceTree = "<group>"; };
+		3367418A1D9E8AEA00445370 /* SwipeBaseVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeBaseVC.m; sourceTree = "<group>"; };
+		3388E0AF1D94D2060034E90F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		3388E0B01D94D2060034E90F /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		3388E0B11D94D2060034E90F /* CoreAudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudioKit.framework; path = System/Library/Frameworks/CoreAudioKit.framework; sourceTree = SDKROOT; };
+		3388E0B51D96AF830034E90F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3388E0B81D98B2280034E90F /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		3388E0B91D98B2280034E90F /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		3388E0BB1D98C1CD0034E90F /* MainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainVC.h; sourceTree = "<group>"; };
+		3388E0BC1D98C1CD0034E90F /* MainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainVC.m; sourceTree = "<group>"; };
+		3388E0BF1D98FF500034E90F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		33A625DB1D910E2B001D40B1 /* MediNeye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediNeye.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A625DF1D910E2B001D40B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		33A625E11D910E2B001D40B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +163,8 @@
 		33A626021D910E2B001D40B1 /* MediNeyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MediNeyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33A626061D910E2B001D40B1 /* MediNeyeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MediNeyeUITests.m; sourceTree = "<group>"; };
 		33A626081D910E2B001D40B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78059C3710D0063CE9CB9966 /* libPods-MediNeye.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediNeye.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9340F6527BF844AE4446D96F /* Pods-MediNeye.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediNeye.release.xcconfig"; path = "Pods/Target Support Files/Pods-MediNeye/Pods-MediNeye.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +172,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336741511D9C1B9400445370 /* CoreGraphics.framework in Frameworks */,
+				3367412C1D9AD84000445370 /* libiconv.tbd in Frameworks */,
+				3367412A1D9AD83600445370 /* QuartzCore.framework in Frameworks */,
+				3367414B1D9B719600445370 /* libzbar.a in Frameworks */,
+				336741281D9AD83100445370 /* CoreVideo.framework in Frameworks */,
+				336741261D9AD82B00445370 /* CoreMedia.framework in Frameworks */,
+				3388E0C01D98FF500034E90F /* CoreLocation.framework in Frameworks */,
+				3388E0B61D96AF830034E90F /* AVFoundation.framework in Frameworks */,
+				3388E0B21D94D2060034E90F /* AudioToolbox.framework in Frameworks */,
+				3388E0B31D94D2060034E90F /* CoreAudio.framework in Frameworks */,
+				3388E0B41D94D2060034E90F /* CoreAudioKit.framework in Frameworks */,
+				E5B2B34F9D6F8C6BC551FEB9 /* libPods-MediNeye.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +204,224 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3367412D1D9B719600445370 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				3367412E1D9B719600445370 /* Headers */,
+				336741451D9B719600445370 /* libzbar.a */,
+				336741461D9B719600445370 /* Resources */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		3367412E1D9B719600445370 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				3367412F1D9B719600445370 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		3367412F1D9B719600445370 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				336741301D9B719600445370 /* zbar */,
+				3367413A1D9B719600445370 /* zbar.h */,
+				3367413B1D9B719600445370 /* ZBarCameraSimulator.h */,
+				3367413C1D9B719600445370 /* ZBarCaptureReader.h */,
+				3367413D1D9B719600445370 /* ZBarHelpController.h */,
+				3367413E1D9B719600445370 /* ZBarImage.h */,
+				3367413F1D9B719600445370 /* ZBarImageScanner.h */,
+				336741401D9B719600445370 /* ZBarReaderController.h */,
+				336741411D9B719600445370 /* ZBarReaderView.h */,
+				336741421D9B719600445370 /* ZBarReaderViewController.h */,
+				336741431D9B719600445370 /* ZBarSDK.h */,
+				336741441D9B719600445370 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		336741301D9B719600445370 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				336741311D9B719600445370 /* Decoder.h */,
+				336741321D9B719600445370 /* Exception.h */,
+				336741331D9B719600445370 /* Image.h */,
+				336741341D9B719600445370 /* ImageScanner.h */,
+				336741351D9B719600445370 /* Processor.h */,
+				336741361D9B719600445370 /* Scanner.h */,
+				336741371D9B719600445370 /* Symbol.h */,
+				336741381D9B719600445370 /* Video.h */,
+				336741391D9B719600445370 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		336741461D9B719600445370 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				336741471D9B719600445370 /* zbar-back.png */,
+				336741481D9B719600445370 /* zbar-help.html */,
+				336741491D9B719600445370 /* zbar-helpicons.png */,
+				3367414A1D9B719600445370 /* zbar-samples.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3367415B1D9DFE1D00445370 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				3367415C1D9E041200445370 /* Utils.h */,
+				3367415D1D9E041200445370 /* Utils.m */,
+				336741551D9DFE1200445370 /* UIColor+Utils.h */,
+				336741561D9DFE1200445370 /* UIColor+Utils.m */,
+				336741571D9DFE1200445370 /* UIFont+Utils.h */,
+				336741581D9DFE1200445370 /* UIFont+Utils.m */,
+				336741521D9DFDC700445370 /* NSString+Utils.h */,
+				336741531D9DFDC700445370 /* NSString+Utils.m */,
+			);
+			name = extension;
+			sourceTree = "<group>";
+		};
+		336741681D9E5FB100445370 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				336741851D9E668300445370 /* settings */,
+				336741811D9E663C00445370 /* welfare */,
+				3367417D1D9E65FC00445370 /* nfc */,
+				336741761D9E659900445370 /* alaram */,
+				3367416A1D9E5FDC00445370 /* barcode&negative */,
+				336741691D9E5FCE00445370 /* drugstore */,
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		336741691D9E5FCE00445370 /* drugstore */ = {
+			isa = PBXGroup;
+			children = (
+				336741751D9E658800445370 /* view */,
+				336741651D9E429400445370 /* NearDrugStoreVC.h */,
+				336741661D9E429400445370 /* NearDrugStoreVC.m */,
+			);
+			name = drugstore;
+			sourceTree = "<group>";
+		};
+		3367416A1D9E5FDC00445370 /* barcode&negative */ = {
+			isa = PBXGroup;
+			children = (
+				336741621D9E427500445370 /* BarCodeVC.h */,
+				336741631D9E427500445370 /* BarCodeVC.m */,
+				3367416D1D9E62FE00445370 /* SearchPillVC.h */,
+				3367416E1D9E62FE00445370 /* SearchPillVC.m */,
+			);
+			name = "barcode&negative";
+			sourceTree = "<group>";
+		};
+		3367416B1D9E5FEA00445370 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				3367415F1D9E05E800445370 /* BaseVC.h */,
+				336741601D9E05E800445370 /* BaseVC.m */,
+				336741891D9E8AEA00445370 /* SwipeBaseVC.h */,
+				3367418A1D9E8AEA00445370 /* SwipeBaseVC.m */,
+				3367415B1D9DFE1D00445370 /* extension */,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		3367416C1D9E600E00445370 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				3367412D1D9B719600445370 /* ZBarSDK */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		336741751D9E658800445370 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				336741701D9E656C00445370 /* DrugStoreInfoView.h */,
+				336741711D9E656C00445370 /* DrugStoreInfoView.m */,
+				336741731D9E657700445370 /* DrugStoreInfoView.xib */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+		336741761D9E659900445370 /* alaram */ = {
+			isa = PBXGroup;
+			children = (
+				336741771D9E65AE00445370 /* PillAlaramVC.h */,
+				336741781D9E65AE00445370 /* PillAlaramVC.m */,
+				3367417A1D9E65DB00445370 /* SelectAlaramVC.h */,
+				3367417B1D9E65DB00445370 /* SelectAlaramVC.m */,
+			);
+			name = alaram;
+			sourceTree = "<group>";
+		};
+		3367417D1D9E65FC00445370 /* nfc */ = {
+			isa = PBXGroup;
+			children = (
+				3367417E1D9E661800445370 /* AddNfcVC.h */,
+				3367417F1D9E661800445370 /* AddNfcVC.m */,
+			);
+			name = nfc;
+			sourceTree = "<group>";
+		};
+		336741811D9E663C00445370 /* welfare */ = {
+			isa = PBXGroup;
+			children = (
+				336741821D9E667A00445370 /* WelFareInstitueVC.h */,
+				336741831D9E667A00445370 /* WelFareInstitueVC.m */,
+			);
+			name = welfare;
+			sourceTree = "<group>";
+		};
+		336741851D9E668300445370 /* settings */ = {
+			isa = PBXGroup;
+			children = (
+				336741861D9E669200445370 /* SettingsVC.h */,
+				336741871D9E669200445370 /* SettingsVC.m */,
+			);
+			name = settings;
+			sourceTree = "<group>";
+		};
+		3388E0AE1D94D2060034E90F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				336741501D9C1B9400445370 /* CoreGraphics.framework */,
+				3367412B1D9AD84000445370 /* libiconv.tbd */,
+				336741291D9AD83600445370 /* QuartzCore.framework */,
+				336741271D9AD83100445370 /* CoreVideo.framework */,
+				336741251D9AD82B00445370 /* CoreMedia.framework */,
+				3388E0BF1D98FF500034E90F /* CoreLocation.framework */,
+				3388E0B51D96AF830034E90F /* AVFoundation.framework */,
+				3388E0AF1D94D2060034E90F /* AudioToolbox.framework */,
+				3388E0B01D94D2060034E90F /* CoreAudio.framework */,
+				3388E0B11D94D2060034E90F /* CoreAudioKit.framework */,
+				78059C3710D0063CE9CB9966 /* libPods-MediNeye.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3388E0BE1D98CB790034E90F /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		33A625D21D910E2B001D40B1 = {
 			isa = PBXGroup;
 			children = (
+				3367416C1D9E600E00445370 /* libs */,
+				3367416B1D9E5FEA00445370 /* common */,
+				336741681D9E5FB100445370 /* controllers */,
 				33A625DD1D910E2B001D40B1 /* MediNeye */,
 				33A625FA1D910E2B001D40B1 /* MediNeyeTests */,
 				33A626051D910E2B001D40B1 /* MediNeyeUITests */,
 				33A625DC1D910E2B001D40B1 /* Products */,
+				3388E0AE1D94D2060034E90F /* Frameworks */,
+				B473D7AEF4E6BAEA2EAC0E0C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,16 +438,24 @@
 		33A625DD1D910E2B001D40B1 /* MediNeye */ = {
 			isa = PBXGroup;
 			children = (
+				3388E0BE1D98CB790034E90F /* New Group */,
+				3388E0B81D98B2280034E90F /* SwipeView.h */,
+				3388E0B91D98B2280034E90F /* SwipeView.m */,
 				33A625E11D910E2B001D40B1 /* AppDelegate.h */,
 				33A625E21D910E2B001D40B1 /* AppDelegate.m */,
 				33A625E41D910E2B001D40B1 /* ViewController.h */,
 				33A625E51D910E2B001D40B1 /* ViewController.m */,
+				3388E0BB1D98C1CD0034E90F /* MainVC.h */,
+				3388E0BC1D98C1CD0034E90F /* MainVC.m */,
 				33A625E71D910E2B001D40B1 /* Main.storyboard */,
 				33A625ED1D910E2B001D40B1 /* Assets.xcassets */,
 				33A625EF1D910E2B001D40B1 /* LaunchScreen.storyboard */,
 				33A625F21D910E2B001D40B1 /* Info.plist */,
 				33A625EA1D910E2B001D40B1 /* MediNeye.xcdatamodeld */,
 				33A625DE1D910E2B001D40B1 /* Supporting Files */,
+				336741201D9A8EE400445370 /* TestViewController.h */,
+				336741211D9A8EE400445370 /* TestViewController.m */,
+				336741221D9A8EE400445370 /* TestViewController.xib */,
 			);
 			path = MediNeye;
 			sourceTree = "<group>";
@@ -143,6 +486,15 @@
 			path = MediNeyeUITests;
 			sourceTree = "<group>";
 		};
+		B473D7AEF4E6BAEA2EAC0E0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				335FB3BA98E79878A88F8770 /* Pods-MediNeye.debug.xcconfig */,
+				9340F6527BF844AE4446D96F /* Pods-MediNeye.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +502,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 33A6260B1D910E2B001D40B1 /* Build configuration list for PBXNativeTarget "MediNeye" */;
 			buildPhases = (
+				552FC51B90EF4A9F48ADE4C9 /* [CP] Check Pods Manifest.lock */,
 				33A625D71D910E2B001D40B1 /* Sources */,
 				33A625D81D910E2B001D40B1 /* Frameworks */,
 				33A625D91D910E2B001D40B1 /* Resources */,
+				1442CDECBA110CB1E2467673 /* [CP] Embed Pods Frameworks */,
+				6EB0F12803053D45A8969CD8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,7 +606,13 @@
 			files = (
 				33A625F11D910E2B001D40B1 /* LaunchScreen.storyboard in Resources */,
 				33A625EE1D910E2B001D40B1 /* Assets.xcassets in Resources */,
+				336741241D9A8EE400445370 /* TestViewController.xib in Resources */,
 				33A625E91D910E2B001D40B1 /* Main.storyboard in Resources */,
+				3367414F1D9B719600445370 /* zbar-samples.png in Resources */,
+				3367414D1D9B719600445370 /* zbar-help.html in Resources */,
+				336741741D9E657700445370 /* DrugStoreInfoView.xib in Resources */,
+				3367414C1D9B719600445370 /* zbar-back.png in Resources */,
+				3367414E1D9B719600445370 /* zbar-helpicons.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,15 +632,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1442CDECBA110CB1E2467673 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediNeye/Pods-MediNeye-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		552FC51B90EF4A9F48ADE4C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EB0F12803053D45A8969CD8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MediNeye/Pods-MediNeye-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		33A625D71D910E2B001D40B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3367418B1D9E8AEA00445370 /* SwipeBaseVC.m in Sources */,
+				3367417C1D9E65DB00445370 /* SelectAlaramVC.m in Sources */,
+				336741671D9E429400445370 /* NearDrugStoreVC.m in Sources */,
+				336741841D9E667A00445370 /* WelFareInstitueVC.m in Sources */,
 				33A625E61D910E2B001D40B1 /* ViewController.m in Sources */,
+				3367415E1D9E041200445370 /* Utils.m in Sources */,
 				33A625EC1D910E2B001D40B1 /* MediNeye.xcdatamodeld in Sources */,
+				336741721D9E656C00445370 /* DrugStoreInfoView.m in Sources */,
+				336741641D9E427500445370 /* BarCodeVC.m in Sources */,
+				336741611D9E05E800445370 /* BaseVC.m in Sources */,
+				336741231D9A8EE400445370 /* TestViewController.m in Sources */,
+				3367416F1D9E62FE00445370 /* SearchPillVC.m in Sources */,
 				33A625E31D910E2B001D40B1 /* AppDelegate.m in Sources */,
+				3388E0BD1D98C1CD0034E90F /* MainVC.m in Sources */,
 				33A625E01D910E2B001D40B1 /* main.m in Sources */,
+				3388E0BA1D98B2280034E90F /* SwipeView.m in Sources */,
+				336741591D9DFE1200445370 /* UIColor+Utils.m in Sources */,
+				336741801D9E661800445370 /* AddNfcVC.m in Sources */,
+				336741881D9E669200445370 /* SettingsVC.m in Sources */,
+				3367415A1D9DFE1200445370 /* UIFont+Utils.m in Sources */,
+				336741541D9DFDC700445370 /* NSString+Utils.m in Sources */,
+				336741791D9E65AE00445370 /* PillAlaramVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,10 +847,32 @@
 		};
 		33A6260C1D910E2B001D40B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 335FB3BA98E79878A88F8770 /* Pods-MediNeye.debug.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MediNeye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZBarSDK",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gihohan.-MediNeye.MediNeye";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -431,10 +880,32 @@
 		};
 		33A6260D1D910E2B001D40B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9340F6527BF844AE4446D96F /* Pods-MediNeye.release.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = MediNeye/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZBarSDK",
+				);
+				LINK_WITH_STANDARD_LIBRARIES = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"AFNetworking\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.gihohan.-MediNeye.MediNeye";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -505,6 +976,7 @@
 				33A6260D1D910E2B001D40B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33A6260E1D910E2B001D40B1 /* Build configuration list for PBXNativeTarget "MediNeyeTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +985,7 @@
 				33A626101D910E2B001D40B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		33A626111D910E2B001D40B1 /* Build configuration list for PBXNativeTarget "MediNeyeUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +994,7 @@
 				33A626131D910E2B001D40B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DrugStoreVC : UIViewController
+@interface NearDrugStoreVC : UIViewController
 
 @end

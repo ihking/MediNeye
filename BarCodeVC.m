@@ -7,8 +7,9 @@
 //
 
 #import "BarCodeVC.h"
+#import "ZBarSDK.h"
 
-@interface BarCodeVC ()
+@interface BarCodeVC () <ZBarReaderDelegate>
 
 @end
 

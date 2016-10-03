@@ -1,18 +1,18 @@
 //
-//  DrugStoreVC.m
+//  SwipeBaseVC.m
 //  MediNeye
 //
 //  Created by HAN on 2016. 9. 30..
 //  Copyright © 2016년 HAN. All rights reserved.
 //
 
-#import "NearDrugStoreVC.h"
+#import "SwipeBaseVC.h"
 
-@interface NearDrugStoreVC ()
+@interface SwipeBaseVC ()
 
 @end
 
-@implementation NearDrugStoreVC
+@implementation SwipeBaseVC
 
 - (void)viewDidLoad {
     [super viewDidLoad];
